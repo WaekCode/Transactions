@@ -1,13 +1,7 @@
-class Account:
-    def __init__(self,Accname,intileBalance):
-        self.name = Accname
-        self.balance = intileBalance
-
-        print(f'\nAccount "{self.name}" was created with a balance of ${self.balance:.2f} ')
 
 
 
-class Transaction(Account):
+class Transaction:
     def __init__(self,title,amount,type,note=''):
         self.title = title
         self.amount = amount

@@ -1,9 +1,8 @@
 from TransactionBankStatemnet import *
 
 Wallet_Transactions = Bank()
-account1 = Account('jack',1000)
 
-run = False
+run = True
 while run:
     print('====BankSystem====')
     print('1.add')
